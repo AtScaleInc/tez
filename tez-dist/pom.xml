@@ -143,7 +143,7 @@
           <execution>
             <id>package-tez</id>
             <configuration>
-              <finalName>tez-${project.version}</finalName>
+              <finalName>tez-${project.version}-as-cdh-1.0</finalName>
               <descriptors>
                 <descriptor>src/main/assembly/tez-dist.xml</descriptor>
               </descriptors>
@@ -160,7 +160,7 @@
           <execution>
             <id>package-tez-minimal</id>
             <configuration>
-              <finalName>tez-${project.version}-minimal</finalName>
+              <finalName>tez-${project.version}-minimal-as-cdh-1.0</finalName>
               <descriptors>
                 <descriptor>src/main/assembly/tez-dist-minimal.xml</descriptor>
               </descriptors>
